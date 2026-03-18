@@ -1,0 +1,109 @@
+/* Page base */
+body {
+    background-color: #fafcff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Profile section */
+center {
+    background-color: #e8f1ff;
+    padding: 30px;
+}
+
+/* Profile image */
+img {
+    border-radius: 50%;
+    border: 3px solid #c7dcff;
+    margin-bottom: 10px;
+}
+
+/* Name & headings */
+h2 {
+    color: #2f4f6f;
+    margin: 5px 0;
+}
+
+h3 {
+    color: #3f5f7f;
+}
+
+h4 {
+    color: #5f7f9f;
+    font-weight: normal;
+}
+
+/* Horizontal rule */
+hr {
+    border: none;
+    height: 1px;
+    background-color: #dfe6ee;
+    margin: 25px 0;
+}
+
+/* Paragraph styling */
+p {
+    background-color: #f4f9f9;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+/* Personal Details */
+h3 + p {
+    background-color: #e6f7f3;
+}
+
+/* Career Objective */
+h3:nth-of-type(2) + p {
+    background-color: #f1f8e9;
+}
+
+/* Achievements list */
+ul {
+    background-color: #fff4e6;
+    padding: 15px 30px;
+    border-radius: 8px;
+}
+
+ul li {
+    margin: 8px 0;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fffdf5;
+}
+
+table th {
+    background-color: #fff1cc;
+    padding: 10px;
+    color: #5a4a2f;
+}
+
+table td {
+    padding: 10px;
+}
+
+/* Technical Skills */
+p b {
+    color: #37474f;
+}
+
+/* Address */
+h3:nth-last-of-type(2) + p {
+    background-color: #fdebed;
+}
+
+/* Declaration */
+h3:last-of-type + p {
+    background-color: #efe9ff;
+}
+
+p:last-child {
+    font-style: italic;
+    font-weight: bold;
+    background-color: #f3f0ff;
+}
